@@ -85,6 +85,7 @@ contract Game is UserRegistration, Practice {
         if (_getPlayerRole(msg.sender) != Role.Bowler)
             revert Game_Not_Authorised();
         require(_skill > 0 && _skill < 4, "Invalid selection");
+        waiting_time[msg.sender] = block.timestamp + TIME_LOCK_IN_SEC;
         if (_skill == 1) {
             _practiceYocker();
         } else if (_skill == 2) {

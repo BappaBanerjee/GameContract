@@ -62,7 +62,7 @@ contract UserRegistration{
     /**
         @dev return the details of the player if registered
     */
-    function _getPlayerDetails() internal view returns(Player memory) {
+    function _getPlayerDetails() public view returns(Player memory) {
         return playerDetails[msg.sender];
     }
 
