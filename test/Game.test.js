@@ -1,6 +1,8 @@
 const { assert, expect } = require("chai");
 const { network, deployments, ethers } = require("hardhat")
 
+
+//added just for testing
 describe("User Registration", function () {
     let game
     let deployer
