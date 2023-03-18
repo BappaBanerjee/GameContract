@@ -94,4 +94,17 @@ contract Game is UserRegistration, Practice {
             _practiceLengthBall();
         }
     }
+
+    event onDeposit(string _token, uint256 _quantity, address _from);
+    event onWithdraw(string _token, uint256 _quantity, address _to);
+
+    function deposit(uint256 _quantity) public {
+        require(_quantity > 0, "quantity must be greater than 0");
+        emit onDeposit("Ball", _quantity, msg.sender);
+    }
+
+    function withdraw(uint256 _quantity, address _address) public {
+        require(_quantity > 0, "quantity must be greater than 0");
+        emit onDeposit("Ball", _quantity, _address);
+    }
 }
