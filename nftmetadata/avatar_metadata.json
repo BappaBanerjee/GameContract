@@ -1,0 +1,15 @@
+{
+    "attributes": [
+        {
+            "trait_type": "avatar",
+            "value": "10"
+        },
+        {
+            "trait_type": "strength",
+            "value": "20"
+        }
+    ],
+    "description": "This is giftaway avatar nft from sixpep",
+    "image": "https://gateway.pinata.cloud/ipfs/QmW8BT4UJzpEZj3xkAhBCVMmcJH6RjRyfoJxvmD6Uzf5YQ",
+    "name": "demo avatar"
+}

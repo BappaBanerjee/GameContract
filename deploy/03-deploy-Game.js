@@ -1,10 +1,10 @@
 module.exports = async ({ getNamedAccounts, deployments }) => {
     const { deploy } = deployments;
     const { deployer } = await getNamedAccounts();
-    await deploy('Game', {
+    await deploy('Metaverse', {
         from: deployer,
-        args: [deployer],
+        args: [],
         log: true,
     });
 };
-module.exports.tags = ['game', 'all'];
+module.exports.tags = ['metaverse', 'all'];

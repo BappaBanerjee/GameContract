@@ -1,0 +1,15 @@
+{
+    "attributes": [
+        {
+            "trait_type": "bat",
+            "value": "10"
+        },
+        {
+            "trait_type": "accuracy",
+            "value": "100"
+        }
+    ],
+    "description": "This is giftaway bat nft from sixpep",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfLZaVsMhsY4zKK9p1A4jXusb3TUuBEjKWkM93eCvy5HS",
+    "name": "MRF Bat"
+}

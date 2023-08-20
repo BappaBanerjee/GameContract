@@ -1,0 +1,15 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Shoe",
+            "value": "10"
+        },
+        {
+            "trait_type": "accuracy",
+            "value": "100"
+        }
+    ],
+    "description": "This is giftaway Shoe nft from sixpep",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNtHkiGwbt72KqXUf7agxgMUACgoYhDZe4HCmMc9QnzfN",
+    "name": "Duke Shoe"
+}

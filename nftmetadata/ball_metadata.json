@@ -1,0 +1,15 @@
+{
+    "attributes": [
+        {
+            "trait_type": "ball",
+            "value": "10"
+        },
+        {
+            "trait_type": "accuracy",
+            "value": "100"
+        }
+    ],
+    "description": "This is giftaway ball nft from sixpep",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfQBQdv5RsvFuRevGiRDBbVMuLhkvKGVKVc8GYvvKdHD1",
+    "name": "Duke ball"
+}
